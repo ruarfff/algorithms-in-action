@@ -1,4 +1,4 @@
-exports.search = (list, item) => {    
+module.exports = search = (list, item) => {    
     let sortedList = [...list].sort()
     let low = 0
     let high = sortedList.length

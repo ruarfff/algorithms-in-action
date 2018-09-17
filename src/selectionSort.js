@@ -1,4 +1,4 @@
-exports.sort = (list) => {
+module.exports = sort = (list) => {
     let sorted = []
     let listCp = [...list]
     for(let i = 0; i < list.length; i++) {

@@ -1,4 +1,4 @@
-const {search} = require('./binarySearch');
+const search = require('./binarySearch');
 
 test('can search an array of numbers', () => {
   expect(search([1, 2, 3, 4, 5, 6], 2)).toBe(1);
