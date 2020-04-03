@@ -10,6 +10,6 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^25.2.6"
   }
 }
